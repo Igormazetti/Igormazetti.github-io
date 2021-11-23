@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(71, 149, 185);
+  background-image: url("assets/background.jpeg");
+  color: #fff;
 }
 
 .container {
@@ -10,7 +11,7 @@ body {
 
 button {
   color: #fff;
-  background-color: rgb(127, 224, 253);
+  background-color: rgb(71, 149, 185);
   margin: 5px;
 }
 
@@ -21,7 +22,7 @@ button {
 
 #who p {
   position: absolute;
-  left: 350px;
+  left: 370px;
   top: 150px;
   width: 700px;
 }
@@ -36,10 +37,15 @@ img {
   margin-left: 100px;
 }
 
+#who img {
+  padding: 20px;
+  background-color: rgb(71, 149, 185);
+}
+
 strong {
   font-size: larger;
   font-family: "Poppins";
-  color: rgb(43, 52, 131);
+  color: rgb(91, 106, 236);
 }
 
 #hard,
@@ -47,6 +53,9 @@ strong {
   font-size: 30px;
   margin-bottom: 40px;
   margin-left: 100px;
+  padding: 20px;
+  background-color: rgb(71, 149, 185);
+  width: 15%;
 }
 
 .hardskills {
@@ -64,6 +73,9 @@ strong {
 #final {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
-  color: rgb(24, 64, 71);
+  color: rgb(242, 253, 255);
   margin-left: 100px;
+  padding: 20px;
+  background-color: rgb(71, 149, 185);
+  width: 50%;
 }

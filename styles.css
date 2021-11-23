@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(71, 149, 185);
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+button {
+  color: #fff;
+  background-color: rgb(127, 224, 253);
+  margin: 5px;
+}
+
+#who {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+#description {
+  font-family: "Courier New", Courier, monospace;
+}
+
+strong {
+  font-size: larger;
+  font-family: "Poppins";
+  color: rgb(43, 52, 131);
+}
+
+#hard,
+#soft {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.hardskills {
+  font-size: 15px;
+  color: azure;
+  list-style: square;
+}
+
+.softskills {
+  font-size: 15px;
+  list-style: square;
+  color: chartreuse;
+}
+
+#final {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: rgb(24, 64, 71);
+}

@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio Igor Mazetti</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="index">
-      <ul>
-        <li><a href="#who">Início</a></li>
-        <li><a href="#description">Descrição</a></li>
-        <li><a href="#habilities">Habilidades</a></li>
-        <li><a href="#who">Final</a></li>
-      </ul>
+    <div class="container">
+      <button type="button"><a href="#who">Início</a></button>
+      <button type="button"><a href="#description">Descrição</a></button>
+      <button type="button"><a href="#hard">Habilidades</a></button>
+      <button type="button"><a href="#final">Final</a></button>
     </div>
 
     <div id="who">
@@ -28,8 +33,9 @@
 
     <div id="description">
       <p>
-        Tenho 25 anos, <strong>sou brasileiro</strong>, nasci e moro no interior
-        de São Paulo, na cidade chamada <strong>Ituverava</strong>,<br />
+        Tenho 25 anos, sou <strong>brasileiro</strong>, nasci e moro no interior
+        de <strong>São Paulo</strong>, na cidade chamada
+        <strong>Ituverava,</strong><br />
         sou formado em Direito e me encontro em transição de carreira para a
         área de Desenvolvimento Web.
       </p>
@@ -42,9 +48,9 @@
       </p>
     </div>
 
-    <div id="habilities">
+    <div id="hard">
       Hard Skills:
-      <ul>
+      <ul class="hardskills">
         <li><strong>HTML</strong></li>
         <li><strong>CSS</strong></li>
         <li><strong>JavaScript</strong></li>
@@ -55,10 +61,10 @@
 
     <div id="soft">
       Soft Skills:
-      <ul>
+      <ul class="softskills">
         <li><strong>Empatia</strong></li>
         <li><strong>Colaboração</strong></li>
-        <li><strong>Paciẽncia</strong></li>
+        <li><strong>Paciência</strong></li>
         <li><strong>Comprometimento</strong></li>
       </ul>
     </div>

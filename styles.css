@@ -56,6 +56,19 @@ strong {
   padding: 20px;
   background-color: rgb(71, 149, 185);
   width: 15%;
+  text-transform: uppercase;
+}
+
+.hardskills li:nth-child(odd) {
+  text-transform: capitalize;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+}
+
+.softskills li:nth-child(odd) {
+  list-style: circle;
+  text-shadow: 2px 2px black;
+  text-transform: capitalize;
 }
 
 .hardskills {

@@ -19,8 +19,16 @@ button {
   font-size: 20px;
 }
 
-#description {
-  font-family: "Courier New", Courier, monospace;
+#who p {
+  position: absolute;
+  left: 250px;
+  top: 150px;
+  width: 700px;
+}
+
+#who h1,
+img {
+  margin-bottom: 50px;
 }
 
 strong {
